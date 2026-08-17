@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		677E481F30314E6700106DC2 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E481E30314E6700106DC2 /* NotificationTableViewCell.swift */; };
+		677E48213031693600106DC2 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E48203031693600106DC2 /* NotificationViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		67D0D9CF302CDA9700797729 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		677E481E30314E6700106DC2 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		677E48203031693600106DC2 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		67D0D9B8302CDA9300797729 /* appTel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D0D9CE302CDA9700797729 /* appTelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D0D9D8302CDA9700797729 /* appTelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +95,8 @@
 		67D0D9AF302CDA9300797729 = {
 			isa = PBXGroup;
 			children = (
+				677E48203031693600106DC2 /* NotificationViewController.swift */,
+				677E481E30314E6700106DC2 /* NotificationTableViewCell.swift */,
 				67D0D9BA302CDA9300797729 /* appTel */,
 				67D0D9D1302CDA9700797729 /* appTelTests */,
 				67D0D9DB302CDA9700797729 /* appTelUITests */,
@@ -249,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677E481F30314E6700106DC2 /* NotificationTableViewCell.swift in Sources */,
+				677E48213031693600106DC2 /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
